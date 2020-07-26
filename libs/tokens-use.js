@@ -1,6 +1,6 @@
 var fs = require('fs');
 var path = require('path');
-var yggdrasil = require('yggdrasil')({});
+var yggdrasil = require('yggdrasil')({ host: 'http://authserver.thealtening.com/'});
 module.exports = (_opt, _cb) => {
 
   var options = _opt;
